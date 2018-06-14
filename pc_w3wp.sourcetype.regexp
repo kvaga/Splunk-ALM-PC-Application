@@ -1,0 +1,1 @@
+^\d{4}\-\d{2}-\d{2}\s\d{2}\:\d{2}\:\d{2}\,\d{3}\s\[(?<PROCESS_ID>\d{1,10})\]\s\[(?<THREAD_ID>\d{1,10})\]\s(?<LOG_STATUS>[A-Z]{4,10})\s(?<ERROR>.+)\s\-\s(?<ERROR_DESCRIPTION>.*)\s\[Context\:\s(?<CONTEXT>.*)\]\s\[FullContext\:\sQCServer\:(?<QC_SERVER>.*)\sUserName\:(?<USER_NAME>.*)\sDomain\:(?<DOMAIN>.*)\sProject:(?<PROJECT>\w+)(\]|(\sTimeslotId\:\d+\])|(\sQCRunId\:\d+))
